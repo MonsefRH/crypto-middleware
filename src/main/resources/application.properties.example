@@ -1,0 +1,9 @@
+server.port=8080
+spring.application.name=crypto-middleware
+keystore.pkcs12.path=path/to/keystore.p12
+keystore.pkcs12.password=password
+keystore.pkcs11.library=path/to/softhsm2-x64.dll
+keystore.pkcs11.pin=0000
+jwt.secret=your-jwt-secret
+jwt.expiration=864000000 # 10days
+logging.level.com.example.middleware=INFO
